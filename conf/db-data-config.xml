@@ -1,0 +1,20 @@
+<dataConfig>
+<dataSource type="JdbcDataSource" 
+            driver="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://192.168.1.219:6603/Voltuswave" 
+            user="vw-srv-0001" 
+            password="Apple#123"/>
+<document>
+  <entity name="LeavesView"  
+    pk="LeaveId"
+    query="select * from LeavesView"  
+    >      
+  </entity>
+  <entity name="Concessionsview"  
+    pk="ConcessionId"
+    query="select * from Concessionsview"  
+    >      
+  </entity>
+</document>
+</dataConfig>
+
